@@ -152,7 +152,6 @@ footer {
 }
 
 /* ===== DESKTOP REFINEMENTS ===== */
-@media (min-width: 1024px) {
 
   .header {
     padding-left: 40px;
@@ -194,3 +193,44 @@ footer {
 }
 
 
+/* ===== LARGE DESKTOP ONLY (iPad SAFE) ===== */
+@media (min-width: 1200px) {
+
+  .header {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .hero {
+    padding: 150px 24px 120px;
+  }
+
+  .hero h1 {
+    font-size: 3.3rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero p {
+    font-size: 1.15rem;
+    max-width: 680px;
+  }
+
+  .section {
+    max-width: 980px;
+    padding: 100px 24px;
+  }
+
+  .section.light {
+    max-width: 1080px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .card {
+    padding: 34px 30px;
+  }
+}
