@@ -85,3 +85,19 @@ body {
   background: #e26422;
   color: #ffffff;
 }
+
+input,
+select,
+textarea {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 110px;
+}
