@@ -55,7 +55,7 @@ body {
 }
 
 .logo {
-  height: 48px;
+  height: 70px;
   display: block;
 }
 
@@ -231,5 +231,12 @@ h1, h2 {
 @media (min-width: 1024px) {
   .hero-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Desktop-only logo size */
+@media (min-width: 1024px) {
+  .logo {
+    height: 64px;
   }
 }
