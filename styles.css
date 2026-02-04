@@ -59,6 +59,23 @@ body {
   display: block;
 }
 
+.header-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.header-info .phone {
+  font-weight: 600;
+  color: #1c2b3a;
+}
+
+.header-info .trust {
+  white-space: nowrap;
+}
+
 /* =========================
    HERO
 ========================= */
