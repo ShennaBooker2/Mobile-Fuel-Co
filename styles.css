@@ -429,8 +429,10 @@ h1, h2 {
 @media (max-width: 767px) {
   /* Hide nav links only */
   .nav {
-    display: none;
-  }
+  display: flex;
+  gap: 12px;
+}
+
 
   /* Keep account + phone visible */
   .header-right {
