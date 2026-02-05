@@ -425,3 +425,24 @@ h1, h2 {
   }
 }
 
+/* ===== MOBILE HEADER FIX ===== */
+@media (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+
+  .account-link {
+    display: none;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .header-inner {
+    justify-content: space-between;
+  }
+}
+
+
+
