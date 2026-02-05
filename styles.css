@@ -45,6 +45,12 @@ body {
 
 .logo-link {
   display: inline-block;
+  text-decoration: none;
+}
+
+
+.logo-link {
+  display: inline-block;
 }
 
 
