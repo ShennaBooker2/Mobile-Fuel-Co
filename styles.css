@@ -55,7 +55,7 @@ body {
 }
 
 .logo {
-  height: 70px;
+  height: 60px;
   display: block;
 }
 
@@ -271,19 +271,20 @@ h1, h2 {
    RESPONSIVE TUNING
 ========================= */
 
-/* Tablet */
+/* Tablet logo size */
 @media (min-width: 768px) {
-  .hero-grid {
-    grid-template-columns: 1fr;
+  .logo {
+    height: 68px;
   }
 }
 
-/* Desktop */
+/* Desktop logo size */
 @media (min-width: 1024px) {
-  .hero-grid {
-    grid-template-columns: 1fr;
+  .logo {
+    height: 76px;
   }
 }
+
 
 /* Desktop-only logo size */
 @media (min-width: 1024px) {
