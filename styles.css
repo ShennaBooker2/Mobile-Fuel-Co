@@ -57,7 +57,11 @@ body {
 .header {
   background: #ffffff;
   border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
+
 
 .header-inner {
   display: flex;
@@ -99,6 +103,11 @@ body {
 .header-info .trust {
   white-space: nowrap;
 }
+
+body {
+  padding-top: 90px;
+}
+
 
 /* =========================
    HERO
