@@ -62,7 +62,15 @@ body {
 .header-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 24px;
+}
+
+.header-inner .logo-link {
+  margin-right: auto;
+}
+
+.header-info {
+  margin: 0 auto;
 }
 
 .logo {
