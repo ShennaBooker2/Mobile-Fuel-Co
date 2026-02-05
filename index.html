@@ -8,24 +8,35 @@
 </head>
 <body>
 
+<!-- ================= HEADER ================= -->
 <header class="header">
   <div class="container header-inner">
-  <a href="index.html" class="logo-link">
-  <img src="assets/logo.png" alt="Mobile Fuel Co Logo" class="logo" />
-</a>
 
+    <!-- Logo (clickable, always goes home) -->
+    <a href="index.html" class="logo-link">
+      <img src="assets/logo.png" alt="Mobile Fuel Co Logo" class="logo" />
+    </a>
 
-  <div class="header-info">
-    <a href="tel:7692312425" class="phone">(769)-231-2425</a>
-    <span class="trust">Secure, Reliable Fuel Delivery</span>
+    <!-- Navigation -->
+    <nav class="nav">
+      <a href="#how-it-works">How It Works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#rewards">Rewards</a>
+    </nav>
+
+    <!-- Trust + CTA -->
+    <div class="header-right">
+      <a href="tel:5551234567" class="phone">(555) 123-4567</a>
+      <a href="order.html" class="btn primary">Order Now</a>
+    </div>
+
   </div>
-
-  <a href="order.html" class="btn primary">Order Now</a>
-</div>
 </header>
 
+<!-- ================= HERO ================= -->
 <section class="hero">
   <div class="container hero-grid">
+
     <div class="hero-text">
       <h1>Fuel delivered wherever you are</h1>
       <p>Gas, diesel, or DEF delivered directly to your vehicle.</p>
@@ -33,69 +44,82 @@
     </div>
 
     <div class="hero-image">
-      <img src="assets/hero.jpg" alt="Fuel delivery service" />
+      <img src="assets/hero.jpg" alt="Mobile fuel delivery service" />
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="section" id="how-it-works">
+  <h2>How It Works</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>Choose Your Fuel</h3>
+      <p>Select gas, diesel, or DEF and the amount you need.</p>
+    </div>
+
+    <div class="card">
+      <h3>Set Delivery Location</h3>
+      <p>Enter your address and any access or vehicle notes.</p>
+    </div>
+
+    <div class="card">
+      <h3>Pay & Get Updates</h3>
+      <p>Pay securely and receive delivery status updates.</p>
     </div>
   </div>
 </section>
 
-<section class="section" id="how-it-works">
-  <h2>How It Works</h2>
-  <div class="card">
-  <h3>Choose Your Fuel</h3>
-  <p>Select gas, diesel, or DEF and the amount you need.</p>
-</div>
-
-<div class="card">
-  <h3>Set Delivery Location</h3>
-  <p>Enter your address and any access or vehicle notes.</p>
-</div>
-
-<div class="card">
-  <h3>Pay & Get Updates</h3>
-  <p>Pay securely and receive delivery status updates.</p>
-</div>
-
-</section>
-
+<!-- ================= PRICING ================= -->
 <section class="section light" id="pricing">
   <h2>Transparent Pricing</h2>
- <div class="card pricing-card">
-  <h3>Fuel Cost</h3>
-  <p class="price-note">Priced per gallon<br />Updated daily</p>
-</div>
 
-<div class="card pricing-card highlight">
-  <h3 class="price">$9.99</h3>
-  <p class="price-label">Base Delivery Fee</p>
-  <p class="price-note">Up to 30 miles</p>
-</div>
+  <div class="card-grid">
+    <div class="card pricing-card">
+      <h3>Fuel Cost</h3>
+      <p class="price-note">Priced per gallon<br />Updated daily</p>
+    </div>
 
-<div class="card pricing-card">
-  <h3>Millage Fee</h3>
-  <p class="price">$0.30 / mile</p>
-  <p class="price-note">Over 30 miles</p>
-</div>
+    <div class="card pricing-card highlight">
+      <h3 class="price">$9.99</h3>
+      <p class="price-label">Base Delivery Fee</p>
+      <p class="price-note">Up to 30 miles</p>
+    </div>
 
-<div class="card pricing-card">
-  <h3>After-Hours</h3>
-  <p class="price">$15</p>
-  <p class="price-note">After 8pm</p>
-</div>
+    <div class="card pricing-card">
+      <h3>Mileage Fee</h3>
+      <p class="price">$0.30 / mile</p>
+      <p class="price-note">Over 30 miles</p>
+    </div>
 
-</section>
-
-<section class="section" id="rewards">
-  <h2>Rewards</h2>
-  <div class="card">
-    1 point per $1 spent<br />
-    100 points = $5 fuel credit
+    <div class="card pricing-card">
+      <h3>After-Hours</h3>
+      <p class="price">$15</p>
+      <p class="price-note">After 8pm</p>
+    </div>
   </div>
 </section>
 
+<!-- ================= REWARDS ================= -->
+<section class="section" id="rewards">
+  <h2>Rewards</h2>
+
+  <div class="card">
+    <p>
+      Earn <strong>1 point per $1 spent</strong><br />
+      <strong>100 points = $5 fuel credit</strong>
+    </p>
+  </div>
+</section>
+
+<!-- ================= SUBSCRIPTION ================= -->
 <section class="section light">
   <h2>Subscription</h2>
+
   <div class="card">
-    <strong>Coming Soon</strong><br />
+    <strong>Coming Soon</strong><br /><br />
     $9.99 / month<br />
     Reduced delivery fees<br />
     Priority service
