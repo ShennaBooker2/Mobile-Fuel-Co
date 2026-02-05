@@ -158,6 +158,43 @@ body {
   line-height: 1.4;
 }
 
+/* ===== PRICING POLISH ===== */
+
+.pricing-card {
+  text-align: center;
+}
+
+.pricing-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1c2b3a;
+}
+
+.pricing-card .price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1c2b3a;
+  margin: 4px 0;
+}
+
+.pricing-card .price-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.pricing-card .price-note {
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+/* Subtle emphasis for base delivery fee */
+.pricing-card.highlight {
+  border: 2px solid #e26422;
+}
+
+
 /* =========================
    BUTTONS
 ========================= */
