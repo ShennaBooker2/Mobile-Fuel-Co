@@ -68,9 +68,11 @@ body {
 }
 
 .header-info .phone {
-  font-weight: 600;
-  color: #1c2b3a;
+  font-weight: 600;
+  color: #2563eb; /* professional blue */
+  text-decoration: underline;
 }
+
 
 .header-info .trust {
   white-space: nowrap;
