@@ -459,5 +459,27 @@ h1, h2 {
   gap: 6px;
 }
 
+/* ===== MOBILE UTILITY BAR ===== */
+.mobile-utility {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-utility {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 16px;
+    font-size: 0.95rem;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .mobile-utility a {
+    color: #2563eb;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+}
 
 
