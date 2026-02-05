@@ -2,6 +2,11 @@
    GLOBAL RESET & BASE
 ========================= */
 
+section {
+  scroll-margin-top: 110px;
+}
+
+
 *,
 *::before,
 *::after {
