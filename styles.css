@@ -427,22 +427,40 @@ h1, h2 {
 
 /* ===== MOBILE HEADER FIX ===== */
 @media (max-width: 767px) {
+  /* Hide nav links only */
   .nav {
     display: none;
   }
 
+  /* Keep account + phone visible */
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
   .account-link {
-    display: none;
+    font-size: 0.85rem;
   }
 
   .phone {
-    display: none;
+    font-size: 0.85rem;
+    white-space: nowrap;
   }
 
+  /* Header layout */
   .header-inner {
     justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+
+  /* OPTIONAL: slightly tighter header on mobile */
+  .header {
+    padding: 8px 0;
   }
 }
+
 
 .hero-trust {
   margin-top: 24px;
