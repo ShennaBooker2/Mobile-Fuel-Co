@@ -73,6 +73,9 @@ body {
   text-decoration: underline;
 }
 
+.header-info .phone:hover {
+  text-decoration: none;
+}
 
 .header-info .trust {
   white-space: nowrap;
@@ -194,6 +197,11 @@ body {
 /* Subtle emphasis for base delivery fee */
 .pricing-card.highlight {
   border: 2px solid #e26422;
+  box-shadow: 0 0 0 6px rgba(226, 100, 34, 0.08);
+}
+
+.pricing-card.highlight {
+  border-radius: 18px;
 }
 
 
