@@ -302,3 +302,25 @@ h1, h2 {
     height: 72px;
   }
 }
+
+/* ===== FINAL LOGO OVERRIDES ===== */
+
+/* Mobile default */
+.logo {
+  height: 60px !important;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .logo {
+    height: 70px !important;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .logo {
+    height: 80px !important;
+  }
+}
+
