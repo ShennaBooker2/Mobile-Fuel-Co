@@ -144,6 +144,20 @@ body {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
 }
 
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1c2b3a;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.4;
+}
+
 /* =========================
    BUTTONS
 ========================= */
