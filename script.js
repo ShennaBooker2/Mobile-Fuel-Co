@@ -1,9 +1,8 @@
-const toggle = document.querySelector(".menu-toggle");
-const menu = document.querySelector(".mobile-menu");
+const toggle = document.getElementById("menuToggle");
+const menu = document.getElementById("mobileMenu");
 
 if (toggle && menu) {
   toggle.addEventListener("click", () => {
     menu.classList.toggle("show");
   });
 }
-
