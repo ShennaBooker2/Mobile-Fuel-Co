@@ -590,4 +590,29 @@ h1, h2 {
   }
 }
 
+/* ===== MOBILE MENU ===== */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
 
+.mobile-menu a {
+  padding: 14px 20px;
+  text-decoration: none;
+  color: #1c2b3a;
+  font-size: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.mobile-menu a:hover {
+  background: #f1f5f9;
+}
+
+/* Mobile only */
+@media (max-width: 767px) {
+  .mobile-menu.show {
+    display: flex;
+  }
+}
