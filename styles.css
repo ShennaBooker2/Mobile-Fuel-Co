@@ -502,3 +502,92 @@ h1, h2 {
   }
 }
 
+/* ================= HEADER ================= */
+
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-link {
+  margin-right: auto;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #1c2b3a;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.account-link {
+  font-size: 0.9rem;
+  color: #475569;
+  text-decoration: none;
+}
+
+.phone {
+  color: #2563eb;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* ================= MOBILE ================= */
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px;
+}
+
+.mobile-menu a {
+  padding: 12px 0;
+  text-decoration: none;
+  color: #1c2b3a;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.mobile-menu.show {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+
