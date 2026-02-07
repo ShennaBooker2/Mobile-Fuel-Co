@@ -2,6 +2,12 @@
    GLOBAL RESET & BASE
 ========================= */
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
 section {
   scroll-margin-top: 110px;
 }
@@ -612,7 +618,8 @@ h1, h2 {
 
 /* Mobile only */
 @media (max-width: 767px) {
-  .mobile-menu.show {
-    display: flex;
+  .header {
+    padding-top: 12px;
   }
 }
+
