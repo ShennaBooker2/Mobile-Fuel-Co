@@ -1,8 +1,15 @@
-const toggle = document.getElementById("menuToggle");
-const menu = document.getElementById("mobileMenu");
+const menuButton = document.querySelector('.menu-toggle');
+const mobileMenu = document.querySelector('.mobile-menu');
 
-if (toggle && menu) {
-  toggle.addEventListener("click", () => {
-    menu.classList.toggle("show");
+if (menuButton && mobileMenu) {
+  menuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+  });
+
+  // Close menu when a link is clicked
+  mobileMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.remove('open');
+    });
   });
 }
