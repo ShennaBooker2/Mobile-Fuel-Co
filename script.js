@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const menuButton = document.querySelector(".menu-toggle");
-  const mobileMenu = document.querySelector(".mobile-menu");
+  const toggle = document.querySelector(".menu-toggle");
+  const menu = document.querySelector(".mobile-menu");
 
-  if (!menuButton || !mobileMenu) return;
+  if (!toggle || !menu) return;
 
-  menuButton.addEventListener("click", () => {
-    mobileMenu.classList.toggle("open");
+  toggle.addEventListener("click", () => {
+    menu.classList.toggle("open");
   });
 
-  mobileMenu.querySelectorAll("a").forEach(link => {
+  menu.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", () => {
-      mobileMenu.classList.remove("open");
+      menu.classList.remove("open");
     });
   });
 });
