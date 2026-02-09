@@ -26,13 +26,37 @@
 <section class="section">
   <h1>Order Fuel</h1>
 
-  <p>Select your fuel type, amount, and delivery location.</p>
+  <form>
+    <label>Fuel Type</label>
+    <select>
+      <option>87 Octane</option>
+      <option>89 Octane</option>
+      <option>91 Octane</option>
+      <option>Diesel</option>
+      <option>DEF</option>
+    </select>
 
-  <p><em>Online ordering and payment coming soon.</em></p>
+    <label>Amount</label>
+    <select>
+      <option>Fill Up</option>
+      <option>5 gallons</option>
+      <option>10 gallons</option>
+      <option>15 gallons</option>
+      <option>20 gallons</option>
+    </select>
+
+    <label>Delivery Address</label>
+    <input type="text" placeholder="Enter delivery location">
+
+    <label>Access Notes</label>
+    <textarea placeholder="Gate code, unlock instructions, etc."></textarea>
+
+    <button class="btn" type="submit">Continue</button>
+  </form>
 </section>
 
 <footer>
-  <p>© Mobile Fuel Co</p>
+  © Mobile Fuel Co
 </footer>
 
 <script src="script.js"></script>
