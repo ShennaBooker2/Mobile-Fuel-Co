@@ -108,6 +108,56 @@ footer {
   padding: 36px 20px;
 }
 
+/* ===== CARD ICONS (ALL DEVICES) ===== */
+.card::before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 42px;
+  margin: 0 auto 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Individual icons */
+#how .card:nth-child(1)::before {
+  background-image: url("assets/icon-fuel.svg");
+}
+
+#how .card:nth-child(2)::before {
+  background-image: url("assets/icon-location.svg");
+}
+
+#how .card:nth-child(3)::before {
+  background-image: url("assets/icon-delivery.svg");
+}
+
+#pricing .card:nth-child(1)::before {
+  background-image: url("assets/icon-fee.svg");
+}
+
+#pricing .card:nth-child(2)::before {
+  background-image: url("assets/icon-mile.svg");
+}
+
+#pricing .card:nth-child(3)::before {
+  background-image: url("assets/icon-clock.svg");
+}
+
+#rewards .card:nth-child(1)::before {
+  background-image: url("assets/icon-points.svg");
+}
+
+#rewards .card:nth-child(2)::before {
+  background-image: url("assets/icon-credit.svg");
+}
+
+#rewards .card:nth-child(3)::before {
+  background-image: url("assets/icon-star.svg");
+}
+
+
 /* ===== MOBILE MENU ===== */
 .menu-toggle {
   display: none;
