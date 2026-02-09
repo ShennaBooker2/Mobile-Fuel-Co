@@ -11,7 +11,7 @@
 <header class="header">
   <div class="header-inner">
     <a href="index.html">
-      <img src="assets/logo.png" class="logo">
+      <img src="assets/logo.png" class="logo" alt="Mobile Fuel Co">
     </a>
     <button class="menu-toggle">☰</button>
   </div>
@@ -20,15 +20,20 @@
 <nav class="mobile-menu">
   <a href="index.html">Home</a>
   <a href="account.html">My Account</a>
-  <a href="contact.html">Contact</a>
+  <a href="contact.html">Contact Us</a>
 </nav>
 
 <section class="section">
   <h1>Order Fuel</h1>
+  <p style="max-width:600px;margin-bottom:30px;">
+    Schedule fuel delivery directly to your vehicle. Choose your fuel type, amount,
+    and delivery location below.
+  </p>
 
-  <form>
+  <form class="order-form">
     <label>Fuel Type</label>
-    <select>
+    <select required>
+      <option value="">Select fuel</option>
       <option>87 Octane</option>
       <option>89 Octane</option>
       <option>91 Octane</option>
@@ -36,8 +41,9 @@
       <option>DEF</option>
     </select>
 
-    <label>Amount</label>
-    <select>
+    <label>Fuel Amount</label>
+    <select required>
+      <option value="">Select amount</option>
       <option>Fill Up</option>
       <option>5 gallons</option>
       <option>10 gallons</option>
@@ -46,17 +52,27 @@
     </select>
 
     <label>Delivery Address</label>
-    <input type="text" placeholder="Enter delivery location">
+    <input type="text" placeholder="Enter delivery location" required>
 
-    <label>Access Notes</label>
-    <textarea placeholder="Gate code, unlock instructions, etc."></textarea>
+    <label>Vehicle / Access Notes</label>
+    <textarea placeholder="Gate code, unlock instructions, vehicle location, etc."></textarea>
 
-    <button class="btn" type="submit">Continue</button>
+    <p style="font-size:0.9rem;color:#64748b;margin-top:16px;">
+      Delivery fees and fuel pricing will be confirmed before payment.
+    </p>
+
+    <button class="btn" type="submit" style="margin-top:24px;">
+      Continue to Payment
+    </button>
   </form>
 </section>
 
 <footer>
-  © Mobile Fuel Co
+  <div class="footer-content">
+    <strong>Mobile Fuel Co</strong><br>
+    Fuel delivered wherever you are<br>
+    <a href="contact.html">Contact Us</a>
+  </div>
 </footer>
 
 <script src="script.js"></script>
