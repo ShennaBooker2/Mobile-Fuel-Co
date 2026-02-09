@@ -233,4 +233,35 @@ footer {
   text-decoration: none;
 }
 
+/* ===== ORDER FORM ===== */
+.order-form {
+  max-width: 520px;
+  margin-top: 40px;
+}
+
+.order-form label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  font-size: 1rem;
+}
+
+.order-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.order-form button {
+  width: 100%;
+}
 
