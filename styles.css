@@ -288,3 +288,15 @@ footer {
   width: 100%;
   margin-top: 24px;
 }
+
+/* ===== CENTER CONTACT SECTION CONTENT ===== */
+#contact .grid {
+  display: flex;
+  justify-content: center;
+}
+
+#contact .card {
+  text-align: center;
+  max-width: 480px;
+}
+
