@@ -29,7 +29,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 24px;
 }
+
 
 .logo {
   height: 44px;
@@ -37,6 +39,12 @@ body {
 
 /* ===== DESKTOP NAV ===== */
 .nav,
+.nav {
+  display: flex;
+  gap: 28px;
+}
+
+
 .header-right a {
   display: inline-flex;
   align-items: center;
@@ -44,10 +52,10 @@ body {
 }
 
 .nav a,
-.header-right a {
-  text-decoration: none;
-  color: #0a2540;
-  font-weight: 500;
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 /* ===== BUTTON ===== */
