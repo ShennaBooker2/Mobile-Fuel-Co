@@ -212,3 +212,25 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* ===== FOOTER ===== */
+footer {
+  background: #0a2540;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 80px;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 0.95rem;
+}
+
+.footer-content a {
+  color: #f06423;
+  text-decoration: none;
+}
+
+
