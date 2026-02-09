@@ -109,52 +109,51 @@ footer {
 }
 
 /* ===== CARD ICONS (ALL DEVICES) ===== */
+/* ===== CARD ICONS (ALL DEVICES, NO ASSETS) ===== */
 .card::before {
-  content: "";
   display: block;
-  width: 42px;
-  height: 42px;
-  margin: 0 auto 16px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  font-size: 36px;
+  margin-bottom: 14px;
+  color: #f06423;
 }
 
-/* Individual icons */
+/* HOW IT WORKS ICONS */
 #how .card:nth-child(1)::before {
-  background-image: url("assets/icon-fuel.svg");
+  content: "⛽";
 }
 
 #how .card:nth-child(2)::before {
-  background-image: url("assets/icon-location.svg");
+  content: "📍";
 }
 
 #how .card:nth-child(3)::before {
-  background-image: url("assets/icon-delivery.svg");
+  content: "🚚";
 }
 
+/* PRICING ICONS */
 #pricing .card:nth-child(1)::before {
-  background-image: url("assets/icon-fee.svg");
+  content: "💵";
 }
 
 #pricing .card:nth-child(2)::before {
-  background-image: url("assets/icon-mile.svg");
+  content: "📏";
 }
 
 #pricing .card:nth-child(3)::before {
-  background-image: url("assets/icon-clock.svg");
+  content: "⏰";
 }
 
+/* REWARDS ICONS */
 #rewards .card:nth-child(1)::before {
-  background-image: url("assets/icon-points.svg");
+  content: "⭐";
 }
 
 #rewards .card:nth-child(2)::before {
-  background-image: url("assets/icon-credit.svg");
+  content: "🎁";
 }
 
 #rewards .card:nth-child(3)::before {
-  background-image: url("assets/icon-star.svg");
+  content: "🔥";
 }
 
 
