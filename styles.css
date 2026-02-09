@@ -37,9 +37,10 @@ body {
 
 /* ===== DESKTOP NAV ===== */
 .nav,
-.header-right {
-  display: flex;
-  gap: 20px;
+.header-right a {
+  display: inline-flex;
+  align-items: center;
+  height: 44px;
 }
 
 .nav a,
