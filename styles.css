@@ -246,9 +246,11 @@ footer {
 }
 
 /* ===== ORDER FORM ===== */
+/* ===== ORDER FORM ===== */
 .order-form {
   max-width: 520px;
-  margin-top: 40px;
+  margin: 40px auto 0;
+  text-align: left;
 }
 
 .order-form label {
@@ -275,5 +277,5 @@ footer {
 
 .order-form button {
   width: 100%;
+  margin-top: 24px;
 }
-
