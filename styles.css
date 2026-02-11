@@ -94,9 +94,13 @@ body {
 
 
 /* ===== SECTIONS ===== */
-section {
-  scroll-margin-top: 100px;
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
 }
+
 
 
 
@@ -104,6 +108,17 @@ section {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
+}
+
+
+.section h1,
+.section h2 {
+  margin-bottom: 20px;
+}
+
+.section p {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ===== CARD GRID ===== */
