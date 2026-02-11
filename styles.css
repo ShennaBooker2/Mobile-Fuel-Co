@@ -205,30 +205,21 @@ footer {
 
 
 /* ===== MOBILE MENU ===== */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 28px;
-}
-
 .mobile-menu {
-  display: none;
+  position: fixed;
+  top: 80px; /* height of header */
+  left: 0;
+  width: 100%;
   background: #ffffff;
   border-top: 1px solid #e5e7eb;
-}
-
-.mobile-menu a {
-  display: block;
-  padding: 16px 20px;
-  text-decoration: none;
-  color: #0a2540;
-  border-bottom: 1px solid #e5e7eb;
+  z-index: 2500;
+  display: none;
 }
 
 .mobile-menu.open {
   display: block;
 }
+
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
