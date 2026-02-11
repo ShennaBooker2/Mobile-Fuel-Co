@@ -14,13 +14,11 @@ body {
 
 /* ===== HEADER ===== */
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 3000;
   background: #ffffff;
   border-bottom: 1px solid #e5e7eb;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 3000;
 }
 
 
@@ -206,20 +204,14 @@ footer {
 
 /* ===== MOBILE MENU ===== */
 .mobile-menu {
-  position: fixed;
-  top: 80px; /* height of header */
-  left: 0;
-  width: 100%;
+  display: none;
   background: #ffffff;
   border-top: 1px solid #e5e7eb;
-  z-index: 2500;
-  display: none;
 }
 
 .mobile-menu.open {
   display: block;
 }
-
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
@@ -310,7 +302,4 @@ footer {
 }
 
 
-body {
-  padding-top: 80px;
-}
 
