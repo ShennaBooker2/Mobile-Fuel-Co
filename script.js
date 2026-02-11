@@ -22,3 +22,28 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// ===== FIX MOBILE SECTION SCROLL WITH FIXED HEADER =====
+document.querySelectorAll('.mobile-menu a[href^="#"]').forEach(link => {
+  link.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute("href");
+    const target = document.querySelector(targetId);
+
+    if (!target) return;
+
+    const headerHeight = document.querySelector(".header").offsetHeight;
+
+    const targetPosition =
+      target.getBoundingClientRect().top + window.scrollY - headerHeight - 10;
+
+    window.scrollTo({
+      top: targetPosition,
+      behavior: "smooth"
+    });
+
+    // Close menu after navigating
+    const menu = document.querySelector(".mobile-menu");
+    if (menu) menu.classList.remove("open");
+  });
+});
